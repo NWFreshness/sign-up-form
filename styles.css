@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+}
+
+.logoSection {
+    flex-basis: 33.3vw;
+    background: url(photo-1585202900225-6d3ac20a6962.avif);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formSection {
+    flex-basis:66.6vw;
+}
+
+.logo h1 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 72px;
+}
+.logo img {
+    height: 50%;
+}
+
+.logo{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .3);
+}
