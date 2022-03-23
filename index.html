@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+ 
+        <!-- LOGO SECTION -->
+        <div class="logoSection">
+            <div class="logo">
+                <img src="odin-lined.png" alt="Odin Logo">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+
+        <!-- FORM SECTION -->
+        <div class="formSection">
+            <div class="description"><p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to!</p></div>
+
+            <div class="form">
+                <h4>Let's do this!</h4>
+                <form class="signUp" action="/" method="POST">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="fname" id="fname">
+
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="lname" id="lname">
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone">
+
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+
+                    <label for="cPassword">CONFIRM PASSWORD</label>
+                    <input type="password" name="cPassword" id="cPassword">
+                </form>
+            </div>
+
+            <div class="createButton">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="/">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
