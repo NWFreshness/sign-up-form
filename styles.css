@@ -3,7 +3,7 @@
 }
 
 .logoSection {
-    flex-basis: 33.3vw;
+    flex-basis: 33.3%;
     background: url(photo-1585202900225-6d3ac20a6962.avif);
     height: 100vh;
     display: flex;
@@ -12,7 +12,69 @@
 }
 
 .formSection {
-    flex-basis:66.6vw;
+    flex-basis:66.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    background: whitesmoke;
+    height: 100%;
+    flex-basis: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+    font-weight:  bold;
+    font-size: 1.2rem;
+}
+.description p {
+    width: 80%;
+}
+.form {
+    flex-basis: 33.3%;
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+    z-index: 1;
+    padding-bottom: 40px; 
+    padding-left: 20px;
+}
+.form h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.input {
+    display:flex;
+    flex-direction: column;
+    width: 35%;
+}
+.input label {
+    font-size: .6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.input:invalid {
+    border-color: red;
+}
+#signUp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.createButton {
+    flex-basis: 33.3%;
+    background: whitesmoke;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.createButton button {
+    background-color: #596d48;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
 }
 
 .logo h1 {

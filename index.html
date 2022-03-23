@@ -29,29 +29,37 @@
 
             <div class="form">
                 <h4>Let's do this!</h4>
-                <form class="signUp" action="/" method="POST">
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text" name="fname" id="fname">
-
-                    <label for="lname">LAST NAME</label>
-                    <input type="text" name="lname" id="lname">
-
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone" id="phone">
-
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
-
-                    <label for="cPassword">CONFIRM PASSWORD</label>
-                    <input type="password" name="cPassword" id="cPassword">
+                <form id="signUp" action="/" method="POST">
+                    <div class="input">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="input">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" min="5" required>
+                    </div>
+                    <div class="input">
+                        <label for="cPassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="cPassword" id="cPassword" min="5" required>
+                    </div>
+ 
                 </form>
             </div>
 
             <div class="createButton">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="signUp">Create Account</button>
                 <p>Already have an account? <a href="/">Log in</a></p>
             </div>
         </div>
